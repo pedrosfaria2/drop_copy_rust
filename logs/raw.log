@@ -1,70 +1,29 @@
-Created session
-Connecting to app.fixsim.com on port 15000 (Source :0)
-8=FIX.4.49=9435=A34=149=pedroserrano2@gmail_com52=20240625-22:39:44.00056=FIXSIMDEMO98=0108=30141=Y10=080
-Initiated logon request
-8=FIX.4.49=8835=A34=149=FIXSIMDEMO52=20240625-22:38:20.48356=pedroserrano2@gmail_com98=0108=3010=046
-Received logon response
-8=FIX.4.49=7635=034=249=pedroserrano2@gmail_com52=20240625-22:40:14.00056=FIXSIMDEMO10=239
-8=FIX.4.49=7635=034=249=FIXSIMDEMO52=20240625-22:38:50.57556=pedroserrano2@gmail_com10=007
-8=FIX.4.49=7635=034=349=pedroserrano2@gmail_com52=20240625-22:40:44.00056=FIXSIMDEMO10=243
-8=FIX.4.49=7635=034=349=FIXSIMDEMO52=20240625-22:39:20.88656=pedroserrano2@gmail_com10=011
-Initiated logout request
-8=FIX.4.49=7635=534=449=pedroserrano2@gmail_com52=20240625-22:40:55.00056=FIXSIMDEMO10=251
-8=FIX.4.49=7635=534=449=FIXSIMDEMO52=20240625-22:39:30.96356=pedroserrano2@gmail_com10=014
-Received logout response
-Disconnecting
-Created session
-Connecting to app.fixsim.com on port 15000 (Source :0)
-8=FIX.4.49=9435=A34=149=pedroserrano2@gmail_com52=20240625-23:30:44.00056=FIXSIMDEMO98=0108=30141=Y10=072
-Initiated logon request
-Socket Error: Connection reset by peer.
-Disconnecting
-Connecting to app.fixsim.com on port 15000 (Source :0)
-8=FIX.4.49=9435=A34=149=pedroserrano2@gmail_com52=20240625-23:30:47.00056=FIXSIMDEMO98=0108=30141=Y10=075
-Initiated logon request
-Socket Error: Connection reset by peer.
-Disconnecting
-Connecting to app.fixsim.com on port 15000 (Source :0)
-8=FIX.4.49=9435=A34=149=pedroserrano2@gmail_com52=20240625-23:30:49.00056=FIXSIMDEMO98=0108=30141=Y10=077
-Initiated logon request
-Socket Error: Connection reset by peer.
-Disconnecting
-Connecting to app.fixsim.com on port 15000 (Source :0)
-8=FIX.4.49=9435=A34=149=pedroserrano2@gmail_com52=20240625-23:30:50.00056=FIXSIMDEMO98=0108=30141=Y10=069
-Initiated logon request
-Socket Error: Connection reset by peer.
-Disconnecting
-Connecting to app.fixsim.com on port 15000 (Source :0)
-8=FIX.4.49=9435=A34=149=pedroserrano2@gmail_com52=20240625-23:30:52.00056=FIXSIMDEMO98=0108=30141=Y10=071
-Initiated logon request
-Socket Error: Connection reset by peer.
-Disconnecting
-Connecting to app.fixsim.com on port 15000 (Source :0)
-8=FIX.4.49=9435=A34=149=pedroserrano2@gmail_com52=20240625-23:30:54.00056=FIXSIMDEMO98=0108=30141=Y10=073
-Initiated logon request
-Socket Error: Connection reset by peer.
-Disconnecting
-Connecting to app.fixsim.com on port 15000 (Source :0)
-8=FIX.4.49=9435=A34=149=pedroserrano2@gmail_com52=20240625-23:30:56.00056=FIXSIMDEMO98=0108=30141=Y10=075
-Initiated logon request
-Created session
-Connecting to app.fixsim.com on port 15000 (Source :0)
-8=FIX.4.49=9435=A34=149=pedroserrano2@gmail_com52=20240625-23:31:53.00056=FIXSIMDEMO98=0108=30141=Y10=073
-Initiated logon request
-Socket Error: Connection reset by peer.
-Disconnecting
-Connecting to app.fixsim.com on port 15000 (Source :0)
-8=FIX.4.49=9435=A34=149=pedroserrano2@gmail_com52=20240625-23:31:55.00056=FIXSIMDEMO98=0108=30141=Y10=075
-Initiated logon request
-Socket Error: Connection reset by peer.
-Disconnecting
-Connecting to app.fixsim.com on port 15000 (Source :0)
-8=FIX.4.49=9435=A34=149=pedroserrano2@gmail_com52=20240625-23:31:57.00056=FIXSIMDEMO98=0108=30141=Y10=077
-Initiated logon request
-Socket Error: Connection reset by peer.
-Disconnecting
-Connecting to app.fixsim.com on port 15000 (Source :0)
-8=FIX.4.49=9435=A34=149=pedroserrano2@gmail_com52=20240625-23:31:59.00056=FIXSIMDEMO98=0108=30141=Y10=079
-Initiated logon request
-Socket Error: Connection reset by peer.
-Disconnecting
+8=FIX.4.49=9435=A34=149=pedroserrano2@gmail_com52=20240625-23:48:09.00056=FIXSIMDEMO98=0108=30141=Y10=082
+8=FIX.4.49=7635=A34=149=FIXSELL252=20240625-23:48:09.00056=FIXBUY298=0108=30141=Y10=129
+8=FIX.4.49=9435=A34=149=pedroserrano2@gmail_com52=20240625-23:48:12.00056=FIXSIMDEMO98=0108=30141=Y10=076
+8=FIX.4.49=7635=A34=149=FIXSELL252=20240625-23:48:12.00056=FIXBUY298=0108=30141=Y10=123
+8=FIX.4.49=7635=A34=149=FIXSELL252=20240625-23:48:14.00056=FIXBUY298=0108=30141=Y10=125
+8=FIX.4.49=9435=A34=149=pedroserrano2@gmail_com52=20240625-23:48:14.00056=FIXSIMDEMO98=0108=30141=Y10=078
+8=FIX.4.49=9435=A34=149=pedroserrano2@gmail_com52=20240625-23:48:15.00056=FIXSIMDEMO98=0108=30141=Y10=079
+8=FIX.4.49=7635=A34=149=FIXSELL252=20240625-23:48:15.00056=FIXBUY298=0108=30141=Y10=126
+8=FIX.4.49=9435=A34=149=pedroserrano2@gmail_com52=20240625-23:48:17.00056=FIXSIMDEMO98=0108=30141=Y10=081
+8=FIX.4.49=7635=A34=149=FIXSELL252=20240625-23:48:17.00056=FIXBUY298=0108=30141=Y10=128
+8=FIX.4.49=7635=A34=149=FIXSELL252=20240625-23:48:19.00056=FIXBUY298=0108=30141=Y10=130
+8=FIX.4.49=9435=A34=149=pedroserrano2@gmail_com52=20240625-23:48:19.00056=FIXSIMDEMO98=0108=30141=Y10=083
+8=FIX.4.49=7635=A34=149=FIXSELL252=20240625-23:48:21.00056=FIXBUY298=0108=30141=Y10=123
+8=FIX.4.49=9435=A34=149=pedroserrano2@gmail_com52=20240625-23:48:21.00056=FIXSIMDEMO98=0108=30141=Y10=076
+8=FIX.4.49=7635=A34=149=FIXSELL252=20240625-23:48:23.00056=FIXBUY298=0108=30141=Y10=125
+8=FIX.4.49=9435=A34=149=pedroserrano2@gmail_com52=20240625-23:48:23.00056=FIXSIMDEMO98=0108=30141=Y10=078
+8=FIX.4.49=9435=A34=149=pedroserrano2@gmail_com52=20240625-23:48:25.00056=FIXSIMDEMO98=0108=30141=Y10=080
+8=FIX.4.49=7635=A34=149=FIXSELL252=20240625-23:48:25.00056=FIXBUY298=0108=30141=Y10=127
+8=FIX.4.49=7635=A34=149=FIXSELL252=20240625-23:48:27.00056=FIXBUY298=0108=30141=Y10=129
+8=FIX.4.49=9435=A34=149=pedroserrano2@gmail_com52=20240625-23:48:27.00056=FIXSIMDEMO98=0108=30141=Y10=082
+8=FIX.4.49=9435=A34=149=pedroserrano2@gmail_com52=20240625-23:48:29.00056=FIXSIMDEMO98=0108=30141=Y10=084
+8=FIX.4.49=7635=A34=149=FIXSELL252=20240625-23:48:29.00056=FIXBUY298=0108=30141=Y10=131
+8=FIX.4.49=9435=A34=149=pedroserrano2@gmail_com52=20240625-23:48:31.00056=FIXSIMDEMO98=0108=30141=Y10=077
+8=FIX.4.49=7635=A34=149=FIXSELL252=20240625-23:48:31.00056=FIXBUY298=0108=30141=Y10=124
+8=FIX.4.49=9435=A34=149=pedroserrano2@gmail_com52=20240625-23:48:33.00056=FIXSIMDEMO98=0108=30141=Y10=079
+8=FIX.4.49=7635=A34=149=FIXSELL252=20240625-23:48:33.00056=FIXBUY298=0108=30141=Y10=126
+8=FIX.4.49=9435=A34=149=pedroserrano2@gmail_com52=20240625-23:48:35.00056=FIXSIMDEMO98=0108=30141=Y10=081
+8=FIX.4.49=9435=A34=149=pedroserrano2@gmail_com52=20240625-23:48:37.00056=FIXSIMDEMO98=0108=30141=Y10=083
+8=FIX.4.49=9435=A34=149=pedroserrano2@gmail_com52=20240625-23:48:39.00056=FIXSIMDEMO98=0108=30141=Y10=085

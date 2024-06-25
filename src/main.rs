@@ -5,8 +5,9 @@ mod custom_logger;
 mod utils;
 
 use config::AppConfig;
-use session::start_session;
+use session::start_sessions;
 use handler::MessageHandler;
+use std::sync::Arc;
 
 fn main() -> Result<(), quickfix::QuickFixError> {
     let current_dir = std::env::current_dir().expect("Failed to get current directory");
@@ -15,7 +16,7 @@ fn main() -> Result<(), quickfix::QuickFixError> {
     let config = AppConfig::load("config.yaml").expect("Failed to load config");
     println!("Loaded config: {:?}", config);
 
-    let handler = MessageHandler::new();
-    start_session(config, handler)?;
+    let handler = Arc::new(MessageHandler::new());
+    start_sessions(config, handler)?;
     Ok(())
 }

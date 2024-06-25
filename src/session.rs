@@ -7,9 +7,31 @@ use crate::config::AppConfig;
 use crate::handler::MessageHandler;
 use crate::custom_logger::CustomLogger;
 use std::io::Read;
+use std::sync::Arc;
+use std::thread;
 
-pub fn start_session(config: AppConfig, handler: MessageHandler) -> Result<(), QuickFixError> {
-    let settings = SessionSettings::try_from_path(&config.settings)?;
+pub fn start_sessions(config: AppConfig, handler: Arc<MessageHandler>) -> Result<(), QuickFixError> {
+    let mut handles = vec![];
+
+    for settings_file in config.settings {
+        let handler_clone = Arc::clone(&handler);
+        let handle = thread::spawn(move || {
+            if let Err(e) = start_single_session(settings_file, handler_clone) {
+                eprintln!("Error starting session: {}", e);
+            }
+        });
+        handles.push(handle);
+    }
+
+    for handle in handles {
+        handle.join().expect("Failed to join thread");
+    }
+
+    Ok(())
+}
+
+fn start_single_session(settings_file: String, handler: Arc<MessageHandler>) -> Result<(), QuickFixError> {
+    let settings = SessionSettings::try_from_path(&settings_file)?;
     let store_factory = FileMessageStoreFactory::try_new(&settings)?;
     let logger = CustomLogger::new("logs/raw.log", "logs/human_readable.log")?;
     let log_factory = LogFactory::try_new(&logger)?;
@@ -20,7 +42,7 @@ pub fn start_session(config: AppConfig, handler: MessageHandler) -> Result<(), Q
     let mut initiator = SocketInitiator::try_new(&settings, &app, &store_factory, &log_factory)?;
     initiator.start()?;
 
-    println!(">> App running, press 'q' to quit");
+    println!(">> App running for session {:?}, press 'q' to quit", settings_file);
     let mut stdin = std::io::stdin().lock();
     let mut stdin_buf = [0];
     loop {
@@ -35,7 +57,7 @@ pub fn start_session(config: AppConfig, handler: MessageHandler) -> Result<(), Q
 }
 
 struct DropCopyApplication {
-    handler: MessageHandler,
+    handler: Arc<MessageHandler>,
 }
 
 impl ApplicationCallback for DropCopyApplication {

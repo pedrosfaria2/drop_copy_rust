@@ -5,7 +5,7 @@ use std::error::Error;
 
 #[derive(Debug, Deserialize)]
 pub struct AppConfig {
-    pub settings: String,
+    pub settings: Vec<String>,
 }
 
 impl AppConfig {
