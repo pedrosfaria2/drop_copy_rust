@@ -1,0 +1,10 @@
+[package]
+name = "drop_copy_app"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+quickfix = "0.1.4"
+serde = { version = "1.0", features = ["derive"] }
+serde_yaml = "0.8"
+thiserror = "1.0"
