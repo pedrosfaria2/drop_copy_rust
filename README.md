@@ -8,12 +8,28 @@
 
 The Drop Copy App is a Rust-based application designed to manage multiple Drop Copy sessions. It supports configurations via YAML files and provides custom logging for both raw and human-readable FIX protocol messages.
 
+## FIX Protocol
+
+The Financial Information Exchange (FIX) protocol is an electronic communications protocol initiated in 1992 for international real-time exchange of information related to securities transactions and markets. FIX is a widely used protocol by various financial institutions, enabling the exchange of trading information.
+
+### QuickFIX-rs Library
+
+This application utilizes the `quickfix-rs` library, which is a Rust implementation of the QuickFIX engine. It handles the low-level details of the FIX protocol, allowing developers to focus on the business logic of their applications.
+
 ## Features
 
 - Manages multiple Drop Copy sessions simultaneously
 - Custom logging of FIX protocol messages in both raw and human-readable formats
 - Configurable via YAML files
 - Command-line interface for easy usage
+
+
+## Logging
+
+All logs, including raw and human-readable messages, are consolidated into a single file for each type. This makes it easier for users to track and analyze the sessions. The log files are stored in the `logs` directory:
+
+- `logs/raw.log`: Contains raw FIX messages.
+- `logs/human_readable.log`: Contains human-readable FIX messages with delimiters replaced for better readability.
 
 ## Installation
 
@@ -23,6 +39,7 @@ The Drop Copy App is a Rust-based application designed to manage multiple Drop C
 - [Cargo](https://doc.rust-lang.org/cargo/getting-started/installation.html)
 - [QuickFIX library](https://github.com/quickfix/quickfix)
 - [Clap](https://crates.io/crates/clap)
+- [CMake](https://cmake.org/)
 
 ### Steps
 
@@ -94,55 +111,6 @@ For more information, visit https://github.com/pedrosfaria2/drop_copy_rust
 - **session.rs**: Manages the Drop Copy sessions and implements the FIX protocol interactions.
 - **handler.rs**: Processes the incoming FIX messages.
 - **custom_logger.rs**: Custom logging implementation for raw and human-readable messages.
-
-## Example
-
-```rust
-// Example usage in main.rs
-
-use config::AppConfig;
-use session::start_sessions;
-use handler::MessageHandler;
-use std::sync::Arc;
-use clap::{Arg, Command, ArgAction};
-
-fn main() -> Result<(), quickfix::QuickFixError> {
-    let matches = Command::new("Drop Copy App")
-        .version("0.1.0")
-        .author("Pedro Serrano Faria <pedroserrano2@gmail.com>")
-        .about("Manages Drop Copy sessions")
-        .arg(
-            Arg::new("config")
-                .short('c')
-                .long("config")
-                .value_name("FILE")
-                .help("Sets a custom config file. Example: --config config.yaml")
-                .long_help("Specify the path to the custom configuration file for the Drop Copy sessions. The configuration file should be in YAML format and include all necessary session settings.")
-                .action(ArgAction::Set)
-                .required(true),
-        )
-        .after_help(
-            "EXAMPLES:\n\n             To start the Drop Copy App with a custom configuration file:\n             drop_copy_app.exe --config config.yaml\n\n             For more information, visit https://github.com/pedrosfaria2/drop_copy_rust \n\n\n"
-        )
-        .get_matches();
-
-    println!("{}", "=".repeat(60));
-    println!("Drop Copy App v0.1.0");
-    println!("Author: Pedro Serrano Faria <pedroserrano2@gmail.com>");
-    println!("{}", "=".repeat(60));
-    println!();
-
-    let config_file = matches.get_one::<String>("config").expect("Config file is required");
-    let config = AppConfig::load(config_file).expect("Failed to load config");
-    println!("Loaded config file: {}", config_file);
-    println!("Configuration: {:#?}", config);
-
-    let handler = Arc::new(MessageHandler::new());
-    start_sessions(config, handler)?;
-
-    Ok(())
-}
-```
 
 ## License
 
