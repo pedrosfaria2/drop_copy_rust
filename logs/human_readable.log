@@ -145,3 +145,119 @@ Outgoing: 8=FIX.4.4|9=94|35=A|34=1|49=pedroserrano2@gmail_com|52=20240625-23:48:
 Event: Initiated logon request
 Event: Socket Error: Connection reset by peer.
 Event: Disconnecting
+Event: Created session
+Event: Created session
+Event: Connecting to app.fixsim.com on port 15000 (Source :0)Event: Connecting to app.fixsim.com on port 15000 (Source :0)
+
+Outgoing: 8=FIX.4.4|9=76|35=A|34=1|49=FIXSELL2|52=20240626-00:17:05.000|56=FIXBUY2|98=0|108=30|141=Y|10=117|
+Outgoing: 8=FIX.4.4|9=94|35=A|34=1|49=pedroserrano2@gmail_com|52=20240626-00:17:05.000|56=FIXSIMDEMO|98=0|108=30|141=Y|10=070|
+Event: Initiated logon request
+Event: Initiated logon request
+Event: Socket Error: Connection reset by peer.Event: Socket Error: Connection reset by peer.
+
+Event: Disconnecting
+Event: Disconnecting
+Event: Connecting to app.fixsim.com on port 15000 (Source :0)Event: Connecting to app.fixsim.com on port 15000 (Source :0)
+
+Outgoing: 8=FIX.4.4|9=94|35=A|34=1|49=pedroserrano2@gmail_com|52=20240626-00:17:08.000|56=FIXSIMDEMO|98=0|108=30|141=Y|10=073|
+Outgoing: 8=FIX.4.4|9=76|35=A|34=1|49=FIXSELL2|52=20240626-00:17:08.000|56=FIXBUY2|98=0|108=30|141=Y|10=120|Event: Initiated logon request
+
+Event: Initiated logon request
+Event: Socket Error: Connection reset by peer.Event: Socket Error: Connection reset by peer.
+
+Event: Disconnecting
+Event: Disconnecting
+Event: Connecting to app.fixsim.com on port 15000 (Source :0)Event: Connecting to app.fixsim.com on port 15000 (Source :0)
+
+Outgoing: 8=FIX.4.4|9=76|35=A|34=1|49=FIXSELL2|52=20240626-00:17:10.000|56=FIXBUY2|98=0|108=30|141=Y|10=113|
+Event: Initiated logon request
+Outgoing: 8=FIX.4.4|9=94|35=A|34=1|49=pedroserrano2@gmail_com|52=20240626-00:17:10.000|56=FIXSIMDEMO|98=0|108=30|141=Y|10=066|
+Event: Initiated logon request
+Event: Socket Error: Connection reset by peer.Event: Socket Error: Connection reset by peer.
+
+Event: Disconnecting
+Event: Disconnecting
+Event: Created session
+Event: Created session
+Event: Connecting to app.fixsim.com on port 15000 (Source :0)
+Event: Connecting to app.fixsim.com on port 15000 (Source :0)
+Outgoing: 8=FIX.4.4|9=76|35=A|34=1|49=FIXSELL2|52=20240626-00:18:49.000|56=FIXBUY2|98=0|108=30|141=Y|10=126|
+Outgoing: 8=FIX.4.4|9=94|35=A|34=1|49=pedroserrano2@gmail_com|52=20240626-00:18:49.000|56=FIXSIMDEMO|98=0|108=30|141=Y|10=079|
+Event: Initiated logon request
+Event: Initiated logon request
+Event: Socket Error: Connection reset by peer.Event: Socket Error: Connection reset by peer.
+
+Event: Disconnecting
+Event: Disconnecting
+Event: Connecting to app.fixsim.com on port 15000 (Source :0)Event: Connecting to app.fixsim.com on port 15000 (Source :0)
+
+Outgoing: 8=FIX.4.4|9=76|35=A|34=1|49=FIXSELL2|52=20240626-00:18:51.000|56=FIXBUY2|98=0|108=30|141=Y|10=119|
+Outgoing: 8=FIX.4.4|9=94|35=A|34=1|49=pedroserrano2@gmail_com|52=20240626-00:18:51.000|56=FIXSIMDEMO|98=0|108=30|141=Y|10=072|
+Event: Initiated logon request
+Event: Initiated logon request
+Event: Socket Error: Connection reset by peer.
+Event: Socket Error: Connection reset by peer.Event: Disconnecting
+
+Event: Disconnecting
+Event: Created session
+Event: Created session
+Event: Connecting to app.fixsim.com on port 15000 (Source :0)Event: Connecting to app.fixsim.com on port 15000 (Source :0)
+
+Outgoing: 8=FIX.4.4|9=94|35=A|34=1|49=pedroserrano2@gmail_com|52=20240626-00:19:03.000|56=FIXSIMDEMO|98=0|108=30|141=Y|10=070|
+Event: Initiated logon request
+Outgoing: 8=FIX.4.4|9=76|35=A|34=1|49=FIXSELL2|52=20240626-00:19:03.000|56=FIXBUY2|98=0|108=30|141=Y|10=117|
+Event: Initiated logon request
+Event: Socket Error: Connection reset by peer.Event: Socket Error: Connection reset by peer.
+
+Event: Disconnecting
+Event: Disconnecting
+Event: Connecting to app.fixsim.com on port 15000 (Source :0)Event: Connecting to app.fixsim.com on port 15000 (Source :0)
+
+Outgoing: 8=FIX.4.4|9=76|35=A|34=1|49=FIXSELL2|52=20240626-00:19:05.000|56=FIXBUY2|98=0|108=30|141=Y|10=119|
+Outgoing: 8=FIX.4.4|9=94|35=A|34=1|49=pedroserrano2@gmail_com|52=20240626-00:19:05.000|56=FIXSIMDEMO|98=0|108=30|141=Y|10=072|
+Event: Initiated logon request
+Event: Initiated logon request
+Event: Socket Error: Connection reset by peer.
+Event: Socket Error: Connection reset by peer.
+Event: Disconnecting
+Event: Disconnecting
+Event: Connecting to app.fixsim.com on port 15000 (Source :0)
+Event: Connecting to app.fixsim.com on port 15000 (Source :0)
+Outgoing: 8=FIX.4.4|9=76|35=A|34=1|49=FIXSELL2|52=20240626-00:19:07.000|56=FIXBUY2|98=0|108=30|141=Y|10=121|
+Event: Initiated logon request
+Outgoing: 8=FIX.4.4|9=94|35=A|34=1|49=pedroserrano2@gmail_com|52=20240626-00:19:07.000|56=FIXSIMDEMO|98=0|108=30|141=Y|10=074|
+Event: Initiated logon request
+Event: Socket Error: Connection reset by peer.
+Event: Disconnecting
+Event: Socket Error: Connection reset by peer.
+Event: Disconnecting
+Event: Connecting to app.fixsim.com on port 15000 (Source :0)Event: Connecting to app.fixsim.com on port 15000 (Source :0)
+
+Outgoing: 8=FIX.4.4|9=94|35=A|34=1|49=pedroserrano2@gmail_com|52=20240626-00:19:09.000|56=FIXSIMDEMO|98=0|108=30|141=Y|10=076|
+Event: Initiated logon request
+Outgoing: 8=FIX.4.4|9=76|35=A|34=1|49=FIXSELL2|52=20240626-00:19:09.000|56=FIXBUY2|98=0|108=30|141=Y|10=123|
+Event: Initiated logon request
+Event: Socket Error: Connection reset by peer.
+Event: Disconnecting
+Event: Socket Error: Connection reset by peer.
+Event: Disconnecting
+Event: Connecting to app.fixsim.com on port 15000 (Source :0)Event: Connecting to app.fixsim.com on port 15000 (Source :0)
+
+Outgoing: 8=FIX.4.4|9=76|35=A|34=1|49=FIXSELL2|52=20240626-00:19:11.000|56=FIXBUY2|98=0|108=30|141=Y|10=116|
+Event: Initiated logon request
+Outgoing: 8=FIX.4.4|9=94|35=A|34=1|49=pedroserrano2@gmail_com|52=20240626-00:19:11.000|56=FIXSIMDEMO|98=0|108=30|141=Y|10=069|
+Event: Initiated logon request
+Event: Socket Error: Connection reset by peer.
+Event: Disconnecting
+Event: Socket Error: Connection reset by peer.
+Event: Disconnecting
+Event: Connecting to app.fixsim.com on port 15000 (Source :0)Event: Connecting to app.fixsim.com on port 15000 (Source :0)
+
+Outgoing: 8=FIX.4.4|9=94|35=A|34=1|49=pedroserrano2@gmail_com|52=20240626-00:19:13.000|56=FIXSIMDEMO|98=0|108=30|141=Y|10=071|
+Event: Initiated logon request
+Outgoing: 8=FIX.4.4|9=76|35=A|34=1|49=FIXSELL2|52=20240626-00:19:13.000|56=FIXBUY2|98=0|108=30|141=Y|10=118|
+Event: Initiated logon request
+Event: Socket Error: Connection reset by peer.
+Event: Disconnecting
+Event: Socket Error: Connection reset by peer.
+Event: Disconnecting
