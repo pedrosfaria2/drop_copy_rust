@@ -37,9 +37,8 @@ All logs, including raw and human-readable messages, are consolidated into a sin
 
 - [Rust](https://www.rust-lang.org/tools/install)
 - [Cargo](https://doc.rust-lang.org/cargo/getting-started/installation.html)
-- [QuickFIX library](https://github.com/quickfix/quickfix)
-- [Clap](https://crates.io/crates/clap)
 - [CMake](https://cmake.org/)
+- a C++ compiler (with C++17 support)
 
 ### Steps
 
