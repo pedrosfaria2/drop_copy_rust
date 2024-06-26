@@ -115,3 +115,7 @@ For more information, visit https://github.com/pedrosfaria2/drop_copy_rust
 ## License
 
 This project is licensed under the MIT License.
+
+## Important Notice
+
+This code is an example implementation of a Drop Copy application using the QuickFIX-rs library. If you intend to use this code in a production environment, please review it thoroughly and make the necessary adaptations, improvements, and implementations specific to your use case.
